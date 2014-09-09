@@ -13,6 +13,18 @@
 		990F3A31197C2B04000B2A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990F3A2F197C2B04000B2A20 /* Main.storyboard */; };
 		990F3A33197C2B04000B2A20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990F3A32197C2B04000B2A20 /* Images.xcassets */; };
 		990F3A3F197C2B04000B2A20 /* Color_KeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F3A3E197C2B04000B2A20 /* Color_KeyboardTests.m */; };
+		990F3A52197C2B14000B2A20 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F3A51197C2B14000B2A20 /* KeyboardViewController.m */; };
+		990F3A55197C2B14000B2A20 /* Pink Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 990F3A4C197C2B14000B2A20 /* Pink Keyboard.appex */; };
+		990F3A5E197C2E06000B2A20 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 990F3A5D197C2E06000B2A20 /* Keyboard.m */; };
+		990F3A62197C4141000B2A20 /* 420px-Globe_icon.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 990F3A61197C4141000B2A20 /* 420px-Globe_icon.svg.png */; };
+		997194A8197D87DC00F04C7C /* arrow-alt-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 997194A7197D87DC00F04C7C /* arrow-alt-up.png */; };
+		997194AA197D87E300F04C7C /* 12975-microphone-icon-clip-art.png in Resources */ = {isa = PBXBuildFile; fileRef = 997194A9197D87E300F04C7C /* 12975-microphone-icon-clip-art.png */; };
+		99B5C3871983FECE00FA4021 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B5C3861983FECE00FA4021 /* Keyboard.xib */; };
+		99C91FAA19854D770080618C /* Numbers Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 99C91FA119854D770080618C /* Numbers Keyboard.appex */; };
+		99C91FB119854D9F0080618C /* NumbersKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C91FB019854D9F0080618C /* NumbersKeyboard.xib */; };
+		99C91FB419854DEB0080618C /* NumbersKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C91FB319854DEB0080618C /* NumbersKeyboard.m */; };
+		99C91FB719856E950080618C /* NumbersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C91FB619856E950080618C /* NumbersVC.m */; };
+		99DD2A20197ED13F00A89250 /* delete_back-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 99DD2A1F197ED13F00A89250 /* delete_back-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +35,50 @@
 			remoteGlobalIDString = 990F3A21197C2B04000B2A20;
 			remoteInfo = "Color Keyboard";
 		};
+		990F3A53197C2B14000B2A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F3A1A197C2B04000B2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990F3A4B197C2B14000B2A20;
+			remoteInfo = "Pink Keyboard";
+		};
+		990F3A56197C2B14000B2A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F3A1A197C2B04000B2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990F3A4B197C2B14000B2A20;
+			remoteInfo = "Pink Keyboard";
+		};
+		99C91FA819854D770080618C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F3A1A197C2B04000B2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C91FA019854D770080618C;
+			remoteInfo = "Numbers Keyboard";
+		};
+		99C91FAB19854D770080618C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990F3A1A197C2B04000B2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C91FA019854D770080618C;
+			remoteInfo = "Numbers Keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		990F3A5B197C2B14000B2A20 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				990F3A55197C2B14000B2A20 /* Pink Keyboard.appex in Embed App Extensions */,
+				99C91FAA19854D770080618C /* Numbers Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		990F3A22197C2B04000B2A20 /* Color Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +93,24 @@
 		990F3A38197C2B04000B2A20 /* Color KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		990F3A3D197C2B04000B2A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990F3A3E197C2B04000B2A20 /* Color_KeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_KeyboardTests.m; sourceTree = "<group>"; };
+		990F3A4C197C2B14000B2A20 /* Pink Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pink Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990F3A4F197C2B14000B2A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990F3A50197C2B14000B2A20 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		990F3A51197C2B14000B2A20 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		990F3A5C197C2E06000B2A20 /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		990F3A5D197C2E06000B2A20 /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
+		990F3A61197C4141000B2A20 /* 420px-Globe_icon.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "420px-Globe_icon.svg.png"; sourceTree = "<group>"; };
+		997194A7197D87DC00F04C7C /* arrow-alt-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-alt-up.png"; sourceTree = "<group>"; };
+		997194A9197D87E300F04C7C /* 12975-microphone-icon-clip-art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12975-microphone-icon-clip-art.png"; sourceTree = "<group>"; };
+		99B5C3861983FECE00FA4021 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		99C91FA119854D770080618C /* Numbers Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Numbers Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C91FA419854D770080618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C91FB019854D9F0080618C /* NumbersKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumbersKeyboard.xib; sourceTree = "<group>"; };
+		99C91FB219854DEB0080618C /* NumbersKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersKeyboard.h; sourceTree = "<group>"; };
+		99C91FB319854DEB0080618C /* NumbersKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersKeyboard.m; sourceTree = "<group>"; };
+		99C91FB519856E950080618C /* NumbersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersVC.h; sourceTree = "<group>"; };
+		99C91FB619856E950080618C /* NumbersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersVC.m; sourceTree = "<group>"; };
+		99DD2A1F197ED13F00A89250 /* delete_back-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_back-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +128,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		990F3A49197C2B14000B2A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C91F9E19854D770080618C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +150,8 @@
 			children = (
 				990F3A24197C2B04000B2A20 /* Color Keyboard */,
 				990F3A3B197C2B04000B2A20 /* Color KeyboardTests */,
+				990F3A4D197C2B14000B2A20 /* Pink Keyboard */,
+				99C91FA219854D770080618C /* Numbers Keyboard */,
 				990F3A23197C2B04000B2A20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +161,8 @@
 			children = (
 				990F3A22197C2B04000B2A20 /* Color Keyboard.app */,
 				990F3A38197C2B04000B2A20 /* Color KeyboardTests.xctest */,
+				990F3A4C197C2B14000B2A20 /* Pink Keyboard.appex */,
+				99C91FA119854D770080618C /* Numbers Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +207,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		990F3A4D197C2B14000B2A20 /* Pink Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				990F3A50197C2B14000B2A20 /* KeyboardViewController.h */,
+				990F3A51197C2B14000B2A20 /* KeyboardViewController.m */,
+				990F3A4E197C2B14000B2A20 /* Supporting Files */,
+				990F3A5C197C2E06000B2A20 /* Keyboard.h */,
+				990F3A5D197C2E06000B2A20 /* Keyboard.m */,
+				99B5C3861983FECE00FA4021 /* Keyboard.xib */,
+			);
+			path = "Pink Keyboard";
+			sourceTree = "<group>";
+		};
+		990F3A4E197C2B14000B2A20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				990F3A61197C4141000B2A20 /* 420px-Globe_icon.svg.png */,
+				997194A7197D87DC00F04C7C /* arrow-alt-up.png */,
+				997194A9197D87E300F04C7C /* 12975-microphone-icon-clip-art.png */,
+				99DD2A1F197ED13F00A89250 /* delete_back-512.png */,
+				990F3A4F197C2B14000B2A20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C91FA219854D770080618C /* Numbers Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				99C91FA319854D770080618C /* Supporting Files */,
+				99C91FB019854D9F0080618C /* NumbersKeyboard.xib */,
+				99C91FB219854DEB0080618C /* NumbersKeyboard.h */,
+				99C91FB319854DEB0080618C /* NumbersKeyboard.m */,
+				99C91FB519856E950080618C /* NumbersVC.h */,
+				99C91FB619856E950080618C /* NumbersVC.m */,
+			);
+			path = "Numbers Keyboard";
+			sourceTree = "<group>";
+		};
+		99C91FA319854D770080618C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C91FA419854D770080618C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +263,15 @@
 				990F3A1E197C2B04000B2A20 /* Sources */,
 				990F3A1F197C2B04000B2A20 /* Frameworks */,
 				990F3A20197C2B04000B2A20 /* Resources */,
+				990F3A5B197C2B14000B2A20 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				990F3A54197C2B14000B2A20 /* PBXTargetDependency */,
+				990F3A57197C2B14000B2A20 /* PBXTargetDependency */,
+				99C91FA919854D770080618C /* PBXTargetDependency */,
+				99C91FAC19854D770080618C /* PBXTargetDependency */,
 			);
 			name = "Color Keyboard";
 			productName = "Color Keyboard";
@@ -154,6 +296,40 @@
 			productReference = 990F3A38197C2B04000B2A20 /* Color KeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		990F3A4B197C2B14000B2A20 /* Pink Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990F3A58197C2B14000B2A20 /* Build configuration list for PBXNativeTarget "Pink Keyboard" */;
+			buildPhases = (
+				990F3A48197C2B14000B2A20 /* Sources */,
+				990F3A49197C2B14000B2A20 /* Frameworks */,
+				990F3A4A197C2B14000B2A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pink Keyboard";
+			productName = "Pink Keyboard";
+			productReference = 990F3A4C197C2B14000B2A20 /* Pink Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		99C91FA019854D770080618C /* Numbers Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C91FAD19854D770080618C /* Build configuration list for PBXNativeTarget "Numbers Keyboard" */;
+			buildPhases = (
+				99C91F9D19854D770080618C /* Sources */,
+				99C91F9E19854D770080618C /* Frameworks */,
+				99C91F9F19854D770080618C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Numbers Keyboard";
+			productName = "Numbers Keyboard";
+			productReference = 99C91FA119854D770080618C /* Numbers Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +345,12 @@
 					990F3A37197C2B04000B2A20 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 990F3A21197C2B04000B2A20;
+					};
+					990F3A4B197C2B14000B2A20 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					99C91FA019854D770080618C = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +369,8 @@
 			targets = (
 				990F3A21197C2B04000B2A20 /* Color Keyboard */,
 				990F3A37197C2B04000B2A20 /* Color KeyboardTests */,
+				990F3A4B197C2B14000B2A20 /* Pink Keyboard */,
+				99C91FA019854D770080618C /* Numbers Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +389,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990F3A4A197C2B14000B2A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DD2A20197ED13F00A89250 /* delete_back-512.png in Resources */,
+				997194A8197D87DC00F04C7C /* arrow-alt-up.png in Resources */,
+				99B5C3871983FECE00FA4021 /* Keyboard.xib in Resources */,
+				997194AA197D87E300F04C7C /* 12975-microphone-icon-clip-art.png in Resources */,
+				990F3A62197C4141000B2A20 /* 420px-Globe_icon.svg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C91F9F19854D770080618C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C91FB119854D9F0080618C /* NumbersKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +433,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		990F3A48197C2B14000B2A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990F3A5E197C2E06000B2A20 /* Keyboard.m in Sources */,
+				990F3A52197C2B14000B2A20 /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C91F9D19854D770080618C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C91FB419854DEB0080618C /* NumbersKeyboard.m in Sources */,
+				99C91FB719856E950080618C /* NumbersVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +458,26 @@
 			isa = PBXTargetDependency;
 			target = 990F3A21197C2B04000B2A20 /* Color Keyboard */;
 			targetProxy = 990F3A39197C2B04000B2A20 /* PBXContainerItemProxy */;
+		};
+		990F3A54197C2B14000B2A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990F3A4B197C2B14000B2A20 /* Pink Keyboard */;
+			targetProxy = 990F3A53197C2B14000B2A20 /* PBXContainerItemProxy */;
+		};
+		990F3A57197C2B14000B2A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990F3A4B197C2B14000B2A20 /* Pink Keyboard */;
+			targetProxy = 990F3A56197C2B14000B2A20 /* PBXContainerItemProxy */;
+		};
+		99C91FA919854D770080618C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C91FA019854D770080618C /* Numbers Keyboard */;
+			targetProxy = 99C91FA819854D770080618C /* PBXContainerItemProxy */;
+		};
+		99C91FAC19854D770080618C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C91FA019854D770080618C /* Numbers Keyboard */;
+			targetProxy = 99C91FAB19854D770080618C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -383,6 +625,54 @@
 			};
 			name = Release;
 		};
+		990F3A59197C2B14000B2A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pink Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		990F3A5A197C2B14000B2A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pink Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		99C91FAE19854D770080618C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Numbers Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99C91FAF19854D770080618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Numbers Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,12 +692,31 @@
 				990F3A44197C2B04000B2A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		990F3A45197C2B04000B2A20 /* Build configuration list for PBXNativeTarget "Color KeyboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				990F3A46197C2B04000B2A20 /* Debug */,
 				990F3A47197C2B04000B2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990F3A58197C2B14000B2A20 /* Build configuration list for PBXNativeTarget "Pink Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990F3A59197C2B14000B2A20 /* Debug */,
+				990F3A5A197C2B14000B2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C91FAD19854D770080618C /* Build configuration list for PBXNativeTarget "Numbers Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C91FAE19854D770080618C /* Debug */,
+				99C91FAF19854D770080618C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
